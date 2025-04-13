@@ -10,14 +10,14 @@ oláNome('Gabriel');
 
 //Criar uma função que recebe um número como parâmetro e retorna o dobro desse número.
 function dobrarNum(numero) {
-    return numero*2    
+    return numero*2;  
 }
 let dobrador = dobrarNum(2);
 console.log(dobrador);
 
 //Criar uma função que recebe três números como parâmetros e retorna a média deles.
 function Média(numero1, numero2, numero3) {
-    return(numero1+numero2+numero3/3)
+    return(numero1+numero2+numero3/3);
 }
 let media = Média(2,2,2);
 console.log(media);
