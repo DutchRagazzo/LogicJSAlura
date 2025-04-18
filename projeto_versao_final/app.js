@@ -1,5 +1,5 @@
 let listaNumerosSorteados = []; // para ter noção de quais numeros entre 1 e 10 foram sorteados e garantir que nenhum se repita.
-let numeroLimite = 100; //define o fim do intervalo de numeros que podem ser sorteados
+let numeroLimite = 20; //define o fim do intervalo de numeros que podem ser sorteados
 let numeroSecreto = gerarNumeroAleatorio();//função que gera numeros random entre 1 e 10
 let tentativas = 1;//o contador de tentativas já inicia com 1 pq pra jogar precisa chutar pelo menos uma vez
 
