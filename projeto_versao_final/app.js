@@ -1,5 +1,5 @@
 let listaNumerosSorteados = []; // para ter noção de quais numeros entre 1 e 10 foram sorteados e garantir que nenhum se repita.
-let numeroLimite = 10; //define o fim do intervalo de numeros que podem ser sorteados
+let numeroLimite = 100; //define o fim do intervalo de numeros que podem ser sorteados
 let numeroSecreto = gerarNumeroAleatorio();//função que gera numeros random entre 1 e 10
 let tentativas = 1;//o contador de tentativas já inicia com 1 pq pra jogar precisa chutar pelo menos uma vez
 
@@ -7,12 +7,12 @@ let tentativas = 1;//o contador de tentativas já inicia com 1 pq pra jogar prec
 function exibirTextoNaTela(tag, texto) {
     let campo = document.querySelector(tag);
     campo.innerHTML = texto; //altera o valor da tag para o texto
-    responsiveVoice.speak(texto, 'Brazilian Portuguese Female', {rate:1.2} ); //script para ter leitor de tela
+    responsiveVoice.speak(texto, 'Brazilian Portuguese Female', {rate:1.5} ); //script para ter leitor de tela
 }
 //funcao para exibir a mensagem de quando se inicia o jogo
 function exibirMensagemInicial() {
     exibirTextoNaTela('h1', 'Jogo do número secreto'); // o título da página
-    exibirTextoNaTela('p', 'Escolha um número entre 1 e 10');
+    exibirTextoNaTela('p', 'Escolha um número entre 1 e 100');
     
 }
 
