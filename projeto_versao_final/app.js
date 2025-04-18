@@ -7,7 +7,7 @@ let tentativas = 1;//o contador de tentativas já inicia com 1 pq pra jogar prec
 function exibirTextoNaTela(tag, texto) {
     let campo = document.querySelector(tag);
     campo.innerHTML = texto; //altera o valor da tag para o texto
-    responsiveVoice.speak(texto, 'Brazilian Portuguese Female', {rate:1.5} ); //script para ter leitor de tela
+    responsiveVoice.speak(texto, 'Brazilian Portuguese Female', {rate:1.2} ); //script para ter leitor de tela
 }
 //funcao para exibir a mensagem de quando se inicia o jogo
 function exibirMensagemInicial() {
